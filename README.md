@@ -7,7 +7,7 @@ This Cordova Plugin gives you a Javascript API to interact with [Core Spotlight]
 
 ## Installation
  Install using ``cordova`` CLI.
- * Run ``cordova plugin add https://github.com/johanblomgren/cordova-plugin-indexappcontent.git``
+ * Run ``cordova plugin add https://github.com/media4learning/cordova-plugin-indexappcontent.git``
 
 ## Usage
 This plugin defines a global `window.plugins.indexAppContent` object.

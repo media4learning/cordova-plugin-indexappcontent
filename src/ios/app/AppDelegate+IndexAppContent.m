@@ -55,12 +55,12 @@
 - (BOOL)swizzledHandOff:(UIApplication *)application continueUserActivity:(nonnull NSUserActivity *)userActivity restorationHandler:(nonnull void (^)(NSArray * _Nullable))restorationHandler {
 
     BOOL orginalHandOffImplementedHandledCase = [self swizzledHandOff:application continueUserActivity:userActivity restorationHandler:restorationHandler];
-    if (orginalHandOffImplementedHandledCase == NO) {
+    // if (orginalHandOffImplementedHandledCase == NO) {
         return [self indexAppContent_application:application continueUserActivity:userActivity restorationHandler:restorationHandler];
-    } else {
-      NSLog(@"Another implementation (e.g. plugin) already handled that userActivity");
-      return YES;
-    }
+    // } else {
+    //   NSLog(@"Another implementation (e.g. plugin) already handled that userActivity");
+    //   return YES;
+    // }
 }
 
 - (BOOL)indexAppContent_application:(UIApplication *)application continueUserActivity:(nonnull NSUserActivity *)userActivity restorationHandler:(nonnull void (^)(NSArray * _Nullable))restorationHandler
