@@ -2,6 +2,9 @@
 |:-:|
 |[![Build Status](https://travis-ci.org/johanblomgren/cordova-plugin-indexappcontent.svg?branch=master)](https://travis-ci.org/johanblomgren/cordova-plugin-indexappcontent)|
 
+## Media4Learning Notes
+Forked version of https://github.com/johanblomgren/cordova-plugin-indexappcontent. Edited to allow for compatibility with ionic-plugin-deeplinks in Ionic projects. To install, run, ``ionic cordova plugin add https://github.com/media4learning/cordova-plugin-indexappcontent.git`` 
+
 ## Overview
 This Cordova Plugin gives you a Javascript API to interact with [Core Spotlight](https://developer.apple.com/reference/corespotlight) on iOS (=> iOS 9). You can add, update and delete items to the spotlight search index. [Spotlight](https://en.wikipedia.org/wiki/Spotlight_(software)) Search will include these items in the result list. You can deep-link the search results with your app.
 
